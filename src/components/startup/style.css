@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vmax;
+    background: lightblue url("./background.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+.mainPage {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+}
+
+.logo {
+    height: 20%;
+    width: auto;
+}
+
+.button {
+    all: unset;
+    text-align: center;
+    padding: 2vmax;
+    width: 35vmax;
+    font-size: 3vmax;
+    border-radius: 5px;
+    border: 1px solid #1E232C;
+}
+
+.dark {
+    background-color: #1E232C;
+    color: #FFF;
+}

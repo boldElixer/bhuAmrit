@@ -1,0 +1,30 @@
+.input {
+    all: unset;
+    display: flex;
+    margin-bottom: 2vmax;
+    padding: 2vmax;
+    width: 35vmax;
+    font-size: 2.4vmax;
+    border-radius: 5px;
+    background-color: #F7F8F9;
+    border: 1px solid #E8ECF4;
+}
+
+::placeholder {
+    color: #6A707C;
+    font-weight: 500;
+}
+
+.google {
+    all: unset;
+    text-align: center;
+    padding: 1vmax;
+    width: 10vmax;
+    font-size: 3vmax;
+    border-radius: 5px;
+    border: 1px solid #E8ECF4;
+}
+
+.google> img {
+    width: 50%;
+}
