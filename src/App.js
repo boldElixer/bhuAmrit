@@ -1,9 +1,11 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
 import Startup from './components/startup';
 import Login from './components/login';
 import Register from './components/register';
 import Dashboard from './components/dashboard';
+import Record from './components/record';
+import View from './components/view';
+import Success from './success';
 
 function App() {
   return (
@@ -13,6 +15,9 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
         <Route path='/dashboard' element={<Dashboard />} />
+        <Route path='/record' element={<Record />} />
+        <Route path='/view' element={<View />} />
+        <Route path='/success' element={<Success />} />
       </Routes>
     </BrowserRouter>
   );

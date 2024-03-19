@@ -1,14 +1,15 @@
 import React from "react";
+import suc from "./suc.gif";
 import { useNavigate } from "react-router-dom";
 
-function Dashboard() {
+function Success() {
     let navigate = useNavigate();
     return (
         <div className="mainPage">
             <div className="content">
-                <h2>Hello admin!</h2>
-                <h2 style={{textAlign: 'center'}}>Welcome to Bhu Amrit Farmer Producer Organization.</h2>
-                <br/><br/>
+                <img src={suc} />
+                <h2>Success!</h2>
+                <br/>
                 <button className="dark button" onClick={()=>navigate('/record')}>
                     Record Data
                 </button>
@@ -21,4 +22,4 @@ function Dashboard() {
     )
 }
 
-export default Dashboard;
+export default Success;

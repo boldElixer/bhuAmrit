@@ -1,0 +1,182 @@
+[
+    {
+      "date": "2024-03-01",
+      "name": "Person1",
+      "oil_weight": 200,
+      "mustard_seed_weight": 150
+    },
+    {
+      "date": "2024-03-02",
+      "name": "Person2",
+      "oil_weight": 250,
+      "mustard_seed_weight": 180
+    },
+    {
+      "date": "2024-03-03",
+      "name": "Person3",
+      "oil_weight": 300,
+      "mustard_seed_weight": 220
+    },
+    {
+      "date": "2024-03-04",
+      "name": "Person4",
+      "oil_weight": 350,
+      "mustard_seed_weight": 260
+    },
+    {
+      "date": "2024-03-05",
+      "name": "Person5",
+      "oil_weight": 400,
+      "mustard_seed_weight": 300
+    },
+    {
+      "date": "2024-03-06",
+      "name": "Person6",
+      "oil_weight": 450,
+      "mustard_seed_weight": 340
+    },
+    {
+      "date": "2024-03-07",
+      "name": "Person7",
+      "oil_weight": 500,
+      "mustard_seed_weight": 380
+    },
+    {
+      "date": "2024-03-08",
+      "name": "Person8",
+      "oil_weight": 550,
+      "mustard_seed_weight": 420
+    },
+    {
+      "date": "2024-03-09",
+      "name": "Person9",
+      "oil_weight": 600,
+      "mustard_seed_weight": 460
+    },
+    {
+      "date": "2024-03-10",
+      "name": "Person10",
+      "oil_weight": 650,
+      "mustard_seed_weight": 500
+    },
+    {
+      "date": "2024-03-11",
+      "name": "Person11",
+      "oil_weight": 700,
+      "mustard_seed_weight": 540
+    },
+    {
+      "date": "2024-03-12",
+      "name": "Person12",
+      "oil_weight": 750,
+      "mustard_seed_weight": 580
+    },
+    {
+      "date": "2024-03-13",
+      "name": "Person13",
+      "oil_weight": 800,
+      "mustard_seed_weight": 620
+    },
+    {
+      "date": "2024-03-14",
+      "name": "Person14",
+      "oil_weight": 850,
+      "mustard_seed_weight": 660
+    },
+    {
+      "date": "2024-03-15",
+      "name": "Person15",
+      "oil_weight": 900,
+      "mustard_seed_weight": 700
+    },
+    {
+      "date": "2024-03-16",
+      "name": "Person16",
+      "oil_weight": 950,
+      "mustard_seed_weight": 740
+    },
+    {
+      "date": "2024-03-17",
+      "name": "Person17",
+      "oil_weight": 1000,
+      "mustard_seed_weight": 780
+    },
+    {
+      "date": "2024-03-18",
+      "name": "Person18",
+      "oil_weight": 1050,
+      "mustard_seed_weight": 820
+    },
+    {
+      "date": "2024-03-19",
+      "name": "Person19",
+      "oil_weight": 1100,
+      "mustard_seed_weight": 860
+    },
+    {
+      "date": "2024-03-20",
+      "name": "Person20",
+      "oil_weight": 1150,
+      "mustard_seed_weight": 900
+    },
+    {
+      "date": "2024-03-21",
+      "name": "Person21",
+      "oil_weight": 1200,
+      "mustard_seed_weight": 940
+    },
+    {
+      "date": "2024-03-22",
+      "name": "Person22",
+      "oil_weight": 1250,
+      "mustard_seed_weight": 980
+    },
+    {
+      "date": "2024-03-23",
+      "name": "Person23",
+      "oil_weight": 1300,
+      "mustard_seed_weight": 1020
+    },
+    {
+      "date": "2024-03-24",
+      "name": "Person24",
+      "oil_weight": 1350,
+      "mustard_seed_weight": 1060
+    },
+    {
+      "date": "2024-03-25",
+      "name": "Person25",
+      "oil_weight": 1400,
+      "mustard_seed_weight": 1100
+    },
+    {
+      "date": "2024-03-26",
+      "name": "Person26",
+      "oil_weight": 1450,
+      "mustard_seed_weight": 1140
+    },
+    {
+      "date": "2024-03-27",
+      "name": "Person27",
+      "oil_weight": 1500,
+      "mustard_seed_weight": 1180
+    },
+    {
+      "date": "2024-03-28",
+      "name": "Person28",
+      "oil_weight": 1550,
+      "mustard_seed_weight": 1220
+    },
+    {
+      "date": "2024-03-29",
+      "name": "Person29",
+      "oil_weight": 1600,
+      "mustard_seed_weight": 1260
+    },
+    {
+      "date": "2024-03-30",
+      "name": "Person30",
+      "oil_weight": 1650,
+      "mustard_seed_weight": 1500
+    }
+]  
