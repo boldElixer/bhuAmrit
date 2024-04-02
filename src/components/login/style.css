@@ -10,6 +10,18 @@
     border: 1px solid #E8ECF4;
 }
 
+.recordInput {
+    all: unset;
+    display: flex;
+    margin-bottom: 1.5vmax;
+    padding: 1.5vmax;
+    width: 35vmax;
+    font-size: 2vmax;
+    border-radius: 5px;
+    background-color: #F7F8F9;
+    border: 1px solid #E8ECF4;
+}
+
 ::placeholder {
     color: #6A707C;
     font-weight: 500;

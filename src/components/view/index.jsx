@@ -2,6 +2,7 @@ import React from "react";
 import data from "./data.json";
 import "./style.css";
 import { useNavigate } from "react-router-dom";
+import Card from "./card";
 
 function View() {
     let navigate = useNavigate();
@@ -12,25 +13,21 @@ function View() {
                 <br/>
                 <h4 style={{background: 'pink', padding: '1px 6px'}} onClick={()=>navigate('/dashboard')}>BACK</h4>
                 <br/>
-                <div style={{overflow: 'scroll', maxHeight: '80vh', width: '90%'}}>
-                    <table>
-                        <tr>
-                            <th>Date</th>
-                            <th>Name</th>
-                            <th>Wt. of oil(kg)</th>
-                            <th>Wt. of seed(kg)</th>
-                        </tr>
-                        {data.map(item=>{
-                            return (
-                                <tr>
-                                    <td>{item.date}</td>
-                                    <td>{item.name}</td>
-                                    <td>{item.oil_weight}</td>
-                                    <td>{item.mustard_seed_weight}</td>
-                                </tr>
-                            )
-                        })}
-                    </table>
+                <div style={{overflow: 'scroll', maxHeight: '80vh', width: '100%'}}>
+                    {data.map(item=>{
+                        return (
+                            <Card 
+                                date={item.date}    
+                                name={item.name}
+                                turns={item.turns}
+                                moisture={item.moisture}
+                                oil_temp={item.oil_temp}
+                                seed_weight={item.seed_weight}
+                                oil_weight={item.oil_weight}
+                                cake_weight={item.cake_weight}
+                            />
+                        )
+                    })}
                 </div>
             </div>
         </div>

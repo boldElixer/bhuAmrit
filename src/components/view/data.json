@@ -1,182 +1,152 @@
 [
-    {
-      "date": "2024-03-01",
-      "name": "Person1",
-      "oil_weight": 200,
-      "mustard_seed_weight": 150
-    },
-    {
-      "date": "2024-03-02",
-      "name": "Person2",
-      "oil_weight": 250,
-      "mustard_seed_weight": 180
-    },
-    {
-      "date": "2024-03-03",
-      "name": "Person3",
-      "oil_weight": 300,
-      "mustard_seed_weight": 220
-    },
-    {
-      "date": "2024-03-04",
-      "name": "Person4",
-      "oil_weight": 350,
-      "mustard_seed_weight": 260
-    },
-    {
-      "date": "2024-03-05",
-      "name": "Person5",
-      "oil_weight": 400,
-      "mustard_seed_weight": 300
-    },
-    {
-      "date": "2024-03-06",
-      "name": "Person6",
-      "oil_weight": 450,
-      "mustard_seed_weight": 340
-    },
-    {
-      "date": "2024-03-07",
-      "name": "Person7",
-      "oil_weight": 500,
-      "mustard_seed_weight": 380
-    },
-    {
-      "date": "2024-03-08",
-      "name": "Person8",
-      "oil_weight": 550,
-      "mustard_seed_weight": 420
-    },
-    {
-      "date": "2024-03-09",
-      "name": "Person9",
-      "oil_weight": 600,
-      "mustard_seed_weight": 460
-    },
-    {
-      "date": "2024-03-10",
-      "name": "Person10",
-      "oil_weight": 650,
-      "mustard_seed_weight": 500
-    },
-    {
-      "date": "2024-03-11",
-      "name": "Person11",
-      "oil_weight": 700,
-      "mustard_seed_weight": 540
-    },
-    {
-      "date": "2024-03-12",
-      "name": "Person12",
-      "oil_weight": 750,
-      "mustard_seed_weight": 580
-    },
-    {
-      "date": "2024-03-13",
-      "name": "Person13",
-      "oil_weight": 800,
-      "mustard_seed_weight": 620
-    },
-    {
-      "date": "2024-03-14",
-      "name": "Person14",
-      "oil_weight": 850,
-      "mustard_seed_weight": 660
-    },
-    {
-      "date": "2024-03-15",
-      "name": "Person15",
-      "oil_weight": 900,
-      "mustard_seed_weight": 700
-    },
-    {
-      "date": "2024-03-16",
-      "name": "Person16",
-      "oil_weight": 950,
-      "mustard_seed_weight": 740
-    },
-    {
-      "date": "2024-03-17",
-      "name": "Person17",
-      "oil_weight": 1000,
-      "mustard_seed_weight": 780
-    },
-    {
-      "date": "2024-03-18",
-      "name": "Person18",
-      "oil_weight": 1050,
-      "mustard_seed_weight": 820
-    },
-    {
-      "date": "2024-03-19",
-      "name": "Person19",
-      "oil_weight": 1100,
-      "mustard_seed_weight": 860
-    },
-    {
-      "date": "2024-03-20",
-      "name": "Person20",
-      "oil_weight": 1150,
-      "mustard_seed_weight": 900
-    },
-    {
-      "date": "2024-03-21",
-      "name": "Person21",
-      "oil_weight": 1200,
-      "mustard_seed_weight": 940
-    },
-    {
-      "date": "2024-03-22",
-      "name": "Person22",
-      "oil_weight": 1250,
-      "mustard_seed_weight": 980
-    },
-    {
-      "date": "2024-03-23",
-      "name": "Person23",
-      "oil_weight": 1300,
-      "mustard_seed_weight": 1020
-    },
-    {
-      "date": "2024-03-24",
-      "name": "Person24",
-      "oil_weight": 1350,
-      "mustard_seed_weight": 1060
-    },
-    {
-      "date": "2024-03-25",
-      "name": "Person25",
-      "oil_weight": 1400,
-      "mustard_seed_weight": 1100
-    },
-    {
-      "date": "2024-03-26",
-      "name": "Person26",
-      "oil_weight": 1450,
-      "mustard_seed_weight": 1140
-    },
-    {
-      "date": "2024-03-27",
-      "name": "Person27",
-      "oil_weight": 1500,
-      "mustard_seed_weight": 1180
-    },
-    {
-      "date": "2024-03-28",
-      "name": "Person28",
-      "oil_weight": 1550,
-      "mustard_seed_weight": 1220
-    },
-    {
-      "date": "2024-03-29",
-      "name": "Person29",
-      "oil_weight": 1600,
-      "mustard_seed_weight": 1260
-    },
-    {
-      "date": "2024-03-30",
-      "name": "Person30",
-      "oil_weight": 1650,
-      "mustard_seed_weight": 1500
-    }
-]  
+  {
+    "date": "2024-03-01",
+    "name": "Person1",
+    "turns": 5,
+    "moisture": 10,
+    "oil_temp": 40,
+    "seed_weight": 150,
+    "oil_weight": 200,
+    "cake_weight": 150
+  },
+  {
+    "date": "2024-03-02",
+    "name": "Person2",
+    "turns": 6,
+    "moisture": 11,
+    "oil_temp": 42,
+    "seed_weight": 155,
+    "oil_weight": 210,
+    "cake_weight": 155
+  },
+  {
+    "date": "2024-03-03",
+    "name": "Person3",
+    "turns": 7,
+    "moisture": 12,
+    "oil_temp": 43,
+    "seed_weight": 160,
+    "oil_weight": 220,
+    "cake_weight": 160
+  },
+  {
+    "date": "2024-03-04",
+    "name": "Person4",
+    "turns": 8,
+    "moisture": 13,
+    "oil_temp": 44,
+    "seed_weight": 165,
+    "oil_weight": 230,
+    "cake_weight": 165
+  },
+  {
+    "date": "2024-03-05",
+    "name": "Person5",
+    "turns": 9,
+    "moisture": 14,
+    "oil_temp": 45,
+    "seed_weight": 170,
+    "oil_weight": 240,
+    "cake_weight": 170
+  },
+  {
+    "date": "2024-03-06",
+    "name": "Person6",
+    "turns": 10,
+    "moisture": 15,
+    "oil_temp": 46,
+    "seed_weight": 175,
+    "oil_weight": 250,
+    "cake_weight": 175
+  },
+  {
+    "date": "2024-03-07",
+    "name": "Person7",
+    "turns": 11,
+    "moisture": 16,
+    "oil_temp": 47,
+    "seed_weight": 180,
+    "oil_weight": 260,
+    "cake_weight": 180
+  },
+  {
+    "date": "2024-03-08",
+    "name": "Person8",
+    "turns": 12,
+    "moisture": 17,
+    "oil_temp": 48,
+    "seed_weight": 185,
+    "oil_weight": 270,
+    "cake_weight": 185
+  },
+  {
+    "date": "2024-03-09",
+    "name": "Person9",
+    "turns": 13,
+    "moisture": 18,
+    "oil_temp": 49,
+    "seed_weight": 190,
+    "oil_weight": 280,
+    "cake_weight": 190
+  },
+  {
+    "date": "2024-03-10",
+    "name": "Person10",
+    "turns": 14,
+    "moisture": 19,
+    "oil_temp": 50,
+    "seed_weight": 195,
+    "oil_weight": 290,
+    "cake_weight": 195
+  },
+  {
+    "date": "2024-03-11",
+    "name": "Person11",
+    "turns": 15,
+    "moisture": 20,
+    "oil_temp": 51,
+    "seed_weight": 200,
+    "oil_weight": 300,
+    "cake_weight": 200
+  },
+  {
+    "date": "2024-03-12",
+    "name": "Person12",
+    "turns": 16,
+    "moisture": 21,
+    "oil_temp": 52,
+    "seed_weight": 205,
+    "oil_weight": 310,
+    "cake_weight": 205
+  },
+  {
+    "date": "2024-03-13",
+    "name": "Person13",
+    "turns": 17,
+    "moisture": 22,
+    "oil_temp": 53,
+    "seed_weight": 210,
+    "oil_weight": 320,
+    "cake_weight": 210
+  },
+  {
+    "date": "2024-03-14",
+    "name": "Person14",
+    "turns": 18,
+    "moisture": 23,
+    "oil_temp": 54,
+    "seed_weight": 215,
+    "oil_weight": 330,
+    "cake_weight": 215
+  },
+  {
+    "date": "2024-03-15",
+    "name": "Person15",
+    "turns": 19,
+    "moisture": 24,
+    "oil_temp": 55,
+    "seed_weight": 220,
+    "oil_weight": 340,
+    "cake_weight": 220
+  }
+]

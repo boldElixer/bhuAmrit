@@ -16,6 +16,10 @@ function Dashboard() {
                 <button className="button" onClick={()=>navigate('/view')}>
                     View Data
                 </button>
+                <br/>
+                <button className="dark button" onClick={()=>navigate('/insights')}>
+                    View Insights
+                </button>
             </div>
         </div>
     )
