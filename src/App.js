@@ -6,6 +6,7 @@ import Dashboard from './components/dashboard';
 import Record from './components/record';
 import View from './components/view';
 import Success from './success';
+import Insights from './components/insights';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/record' element={<Record />} />
         <Route path='/view' element={<View />} />
+        <Route path='/insights' element={<Insights />} />
         <Route path='/success' element={<Success />} />
       </Routes>
     </BrowserRouter>
