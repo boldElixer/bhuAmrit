@@ -13,15 +13,15 @@ function Success() {
                 <h2>Success!</h2>
                 <br/>
                 <button className="dark button" onClick={()=>navigate('/record')}>
-                    Record Data
+                    रिकॉर्ड डेटा
                 </button>
                 <br/>
                 <button className="button" onClick={()=>navigate('/view')}>
-                    View Data
+                    डेटा देखें
                 </button>
                 <br/>
                 <button className="dark button" onClick={()=>navigate('/insights')}>
-                    View Insights
+                    डेटा विश्लेषण
                 </button>
             </div>
         </div>

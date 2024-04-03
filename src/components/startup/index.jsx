@@ -10,9 +10,9 @@ function Startup() {
             <div className="content">
                 <img src={logo} alt="Bhuamrit logo" className="logo"/>
                 <br/><br/>
-                <button className="dark button" onClick={()=>navigate("/login")}>Login</button>
+                <button className="dark button" onClick={()=>navigate("/login")}>लॉग इन</button>
                 <br/>
-                <button className="button" onClick={()=>navigate("/register")}>Register</button>
+                <button className="button" onClick={()=>navigate("/register")}>पंजीकरण</button>
             </div>
         </div>
     )

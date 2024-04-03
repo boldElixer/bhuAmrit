@@ -6,19 +6,19 @@ function Dashboard() {
     return (
         <div className="mainPage">
             <div className="content">
-                <h2>Hello admin!</h2>
-                <h2 style={{textAlign: 'center'}}>Welcome to Bhu Amrit Farmer Producer Organization.</h2>
+                <h2>नमस्ते admin!</h2>
+                <h2 style={{textAlign: 'center'}}>भूअमृत कृषक उत्पादक संगठन में आपका स्वागत है।</h2>
                 <br/><br/>
                 <button className="dark button" onClick={()=>navigate('/record')}>
-                    Record Data
+                    रिकॉर्ड डेटा
                 </button>
                 <br/>
                 <button className="button" onClick={()=>navigate('/view')}>
-                    View Data
+                    डेटा देखें
                 </button>
                 <br/>
                 <button className="dark button" onClick={()=>navigate('/insights')}>
-                    View Insights
+                    डेटा विश्लेषण
                 </button>
             </div>
         </div>

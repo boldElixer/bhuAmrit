@@ -9,7 +9,7 @@ function View() {
     return (
         <div className="mainPage">
             <div className="content">
-                <h2>Recent mustard data entries</h2>
+                <h2>हाल की सरसों डेटा प्रविष्टियाँ</h2>
                 <br/>
                 <h4 style={{background: 'pink', padding: '1px 6px'}} onClick={()=>navigate('/dashboard')}>BACK</h4>
                 <br/>

@@ -7,12 +7,12 @@ function Register() {
     return (
         <div className="mainPage">
             <div className="content">
-                <h2>Hello! Register to get started</h2>
+                <h2>नमस्ते! आरंभ करने के लिए पंजीकरण करें</h2>
                 <br/><br/>
                 <form>
-                    <input type="text" name="name" required className="input" placeholder="Enter your name"/>
-                    <input type="text" name="email" required className="input" placeholder="Enter your email"/>
-                    <input type="password" name="password" required className="input" placeholder="Enter your password"/>
+                    <input type="text" name="name" required className="input" placeholder="अपना नाम दर्ज करें"/>
+                    <input type="text" name="email" required className="input" placeholder="अपना ईमेल दर्ज करें"/>
+                    <input type="password" name="password" required className="input" placeholder="अपना पासवर्ड दर्ज करें"/>
                 </form>
                 <br/>
                 <button className="dark button" onClick={()=>navigate("/")}>Register</button>

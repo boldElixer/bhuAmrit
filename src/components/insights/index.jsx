@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../view/data.json";
 import { Bar } from "react-chartjs-2";
+import { Bar as BarJS } from 'chart.js/auto';
 import { useNavigate } from "react-router-dom";
 
 function Insights() {
@@ -112,18 +113,18 @@ function Insights() {
     return (
         <div className="mainPage">
             <div className="content">
-                <h2>Data Insights</h2>
+                <h2>डेटा विश्लेषण</h2>
                 <br/>
                 <h4 style={{background: 'pink', padding: '1px 6px'}} onClick={()=>navigate('/dashboard')}>BACK</h4>
                 <br/>
-                <div className="button" style={{backgroundColor: '#AEFF00', border: 'none'}}>Optimum pressure: <b>8 turns</b></div>
+                <div className="button" style={{backgroundColor: '#AEFF00', border: 'none'}}>अनुकूलतम घुमाव संख्या: <b>8</b></div>
                 <br/>
-                <div className="button" style={{backgroundColor: '#AEFF00', border: 'none'}}>Optimum moisture: <b>10%</b></div>
+                <div className="button" style={{backgroundColor: '#AEFF00', border: 'none'}}>अनुकूलतम बीज की नमी: <b>10%</b></div>
                 <br/>
-                <h4>Seasonal Effect</h4>
+                <h4>मौसमी प्रभाव</h4>
                 <Bar data={chartData} options={options} />
                 <br/>
-                <h4>Top Farmers</h4>
+                <h4>शीर्ष किसान</h4>
                 <Bar data={chartFData} options={Foptions} />
             </div>
         </div>
