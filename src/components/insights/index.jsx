@@ -121,6 +121,8 @@ function Insights() {
                 <br/>
                 <div className="button" style={{backgroundColor: '#AEFF00', border: 'none'}}>अनुकूलतम बीज की नमी: <b>10%</b></div>
                 <br/>
+                <div className="button" style={{backgroundColor: '#AEFF00', border: 'none'}}>अनुकूलतम मशीन तापमान: <b>40&deg;C</b></div>
+                <br/>
                 <h4>मौसमी प्रभाव</h4>
                 <Bar data={chartData} options={options} />
                 <br/>
